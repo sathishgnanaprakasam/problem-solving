@@ -1,7 +1,7 @@
 # Problem Solving Sessions
 
 [x] Day 1: Problem Solving Techniques  
-[ ] Day 2: Patterns  
+[x] Day 2: Patterns  
 [ ] Day 3: Arrays - Basics + Time and Space Complexity
 [ ] Day 4: Arrays - Advanced  
 [ ] Day 5: Strings - Basics  
