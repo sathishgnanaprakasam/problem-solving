@@ -2,8 +2,8 @@
 
 [x] Day 1: Problem Solving Techniques  
 [x] Day 2: Patterns  
-[ ] Day 3: Arrays - Basics + Time and Space Complexity
-[ ] Day 4: Arrays - Advanced  
+[x] Day 3: Arrays - Basics + Hashing
+[ ] Day 4: Arrays - Advanced + Time and Space Complexity
 [ ] Day 5: Strings - Basics  
 [ ] Day 6: Strings - Advanced  
 [ ] Day 7: Sorting Algorithms  
@@ -174,3 +174,37 @@ Not amicable numbers
 15. Find the nth prime number.
 
 ## Day 2: Patterns
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+## Day 3: Arrays - Basics
+
+### Homeworks
+
+1. Given an array of integers, find the frequency of each element in the array.
+2. Given an array of integers, find the number of duplicates in the array.
+3. Given an array of integers, find the number of unique elements in the array.
+4. Given an array of integers, remove the duplicates from the array.
+5. Given an array of integers, find the first non-repeating element in the array.
+6. Given an array of integers, find the first repeating element in the array.
+7. Given an array of integers, find the second largest element in the array.
+8. Given an array of integers, find the maximum frequency of an element in the array.
+9. Given an array of integers, find the minimum frequency of an element in the array.
+10. Given a String, find the frequency of each character in the String and print as like 'a2b3c4d5'.
+11. Given a string, find the first non-repeating character in the string.
+12. Given a string, find the first repeating character in the string.
+13. Given two arrays, find the common elements between the two arrays.
+14. Given two arrays, find the union of the two arrays.
+15. Given two arrays, find the intersection of the two arrays.
+16. Given an array of integers and the number, find only the factors of the number in the array.
+17. Given two sorted arrays, merge the two arrays into a single sorted arrays.
