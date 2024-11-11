@@ -3,8 +3,8 @@
 [x] Day 1: Problem Solving Techniques  
 [x] Day 2: Patterns  
 [x] Day 3: Arrays - Basics + Hashing
-[ ] Day 4: Arrays - Advanced + Time and Space Complexity
-[ ] Day 5: Strings - Basics  
+[x] Day 4: Arrays - Advanced + Hashing + Two Pointers + Recursion
+[ ] Day 5: Strings - Basics + Time and Space Complexity
 [ ] Day 6: Strings - Advanced  
 [ ] Day 7: Sorting Algorithms  
 [ ] Day 8: Searching Algorithms  
