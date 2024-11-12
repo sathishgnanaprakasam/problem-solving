@@ -219,9 +219,13 @@
 // reverse(numbers);
 
 // Using recursion
-function isPalindrome(word, i = 0) {
+// function isPalindrome(word, left = 0, right = word.length - 1) {
+//     if (left >= right) return true;
 
-}
+//     if (word[left] !== word[right]) return false;
+
+//     return isPalindrome(word, left + 1, right - 1);
+// }
 
 
 // console.log(isPalindrome("target"))
@@ -239,7 +243,75 @@ function isPalindrome(word, i = 0) {
 
     Input: [3, 3], target = 6
     Output: [0, 1]
+
+    Input: [5, 2, 3, 9, 7, 4], target = 10
+    Output: [2, 4]
 */
+// Method 1: All possible pairs
+// Time complexity: O(N^2)
+// function findIndices(numbers, target) {
+//     // Generate all the possible pairs
+//     for (let i = 0; i < numbers.length; i++) {
+//         // for each of these elements
+//         // generate their consecutive pairs
+//         for (let j = i + 1; j < numbers.length; j++) {
+//             // check if the sum of the pairs is equal to the target
+//             if (numbers[i] + numbers[j] === target) {
+//                 // this is the pair we are looking for
+//                 // return their indices
+//                 return [i, j];
+//             }
+//         }
+//     }
+// }
+
+// console.log(findIndices([2, 7, 11, 15], 9))
+// console.log(findIndices([3, 2, 4], 6))
+// console.log(findIndices([3, 3], 6))
+// console.log(findIndices([5, 2, 3, 9, 7, 4], 10))
+
+// Method 2: Hashing
+// Time complexity: O(N)
+// function findIndices(numbers, target) {
+//     let hash = {}
+
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (hash[target - numbers[i]]) {
+//             return [i, hash[target - numbers[i]]];
+//         } else {
+//             // create an entry
+//             hash[numbers[i]] = i;
+//         }
+//     }
+// }
+
+// // console.log(findIndices([2, 7, 11, 15], 9))
+// // console.log(findIndices([3, 2, 4], 6))
+// // console.log(findIndices([3, 3], 6))
+// console.log(findIndices([5, 2, 3, 9, 7, 4], 10))
+
+// Method 3: Two pointers
+// Time complexity: O(N)
+// function findIndices(numbers, target) {
+//     let numbers2d = numbers.map((number, index) => [index, number]);
+
+//     // sort the array numbers
+//     numbers2d.sort((a, b) => a[1] - b[1]);
+
+//     let l = 0;
+//     let r = numbers2d.length - 1;
+
+//     while (l < r) {
+//         if (numbers2d[l][1] + numbers2d[r][1] === target) return [numbers2d[l][0], numbers2d[r][0]];
+//         else if (numbers2d[l][1] + numbers2d[r][1] > target) r--;
+//         else l++;
+//     }
+// }
+
+// console.log(findIndices([2, 7, 11, 15], 9))
+// console.log(findIndices([3, 2, 4], 6))
+// console.log(findIndices([3, 3], 6))
+// console.log(findIndices([5, 2, 3, 9, 7, 4], 10))
 
 /*
     Problem: Given two sorted arrays, merge the arrays into a single array.

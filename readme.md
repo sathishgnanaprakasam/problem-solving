@@ -4,8 +4,8 @@
 [x] Day 2: Patterns  
 [x] Day 3: Arrays - Basics + Hashing
 [x] Day 4: Arrays - Advanced + Hashing + Two Pointers + Recursion
-[ ] Day 5: Strings - Basics + Time and Space Complexity
-[ ] Day 6: Strings - Advanced  
+[x] Day 5: Strings - Basics
+[ ] Day 6: Strings - Advanced + Time and Space Complexity
 [ ] Day 7: Sorting Algorithms  
 [ ] Day 8: Searching Algorithms  
 [ ] Day 9: Linked Lists  
@@ -208,3 +208,43 @@ Not amicable numbers
 15. Given two arrays, find the intersection of the two arrays.
 16. Given an array of integers and the number, find only the factors of the number in the array.
 17. Given two sorted arrays, merge the two arrays into a single sorted arrays.
+
+## Day 4: Arrays - Advanced
+
+### Homeworks
+
+1. Given an array of integers, find the maximum sum of the subarray.
+2. Given an array of integers, find the minimum sum of the subarray.
+3. Given an array of integers, find the maximum product of the subarray.
+4. Given an array of integers, find the second largest number in the array.
+5. Given an array of integers, find the kth largest number in the array.
+6. Given two arrays, find the median of the two arrays.
+7. Given an array of integers, print the next greater element for each element in the array.
+8. Given two arrays, check if the array is a rotated array of another array.
+9. Given an array of integers, find the maximum difference between two elements in the array.
+10. Given an array of integers, find the maximum difference between two elements in the array such that the smaller element appears before the larger element.
+
+## Day 5: Strings - Basics
+
+### Homeworks
+
+1. Given a string, find the frequency of each character in the string.
+2. Given a string, find the number of duplicates in the string.
+3. Given a string, find the number of unique characters in the string.
+4. Given a string, remove the duplicates from the string.
+5. Given a string, find the first non-repeating character in the string.
+6. Given a string, find the first repeating character in the string.
+7. Given two strings, find the common characters between the two strings.
+8. Given two strings, find the union of the two strings.
+9. Given two strings, find the intersection of the two strings.
+10. Given a string, find the frequency of each word in the string.
+11. Given a string, find the first non-repeating word in the string.
+12. Given a string, find the first repeating word in the string.
+13. Given two strings, find the common words between the two strings
+14. Given the characters and frequencies as 'a2b3c4d5', print the string as 'aabbbccccddddd'.
+15. Given a string, find the number of words in the string.
+16. Given a string, check if the string is a palindrome or not.
+17. Given two strings, check if the string is an anagram of another string.
+18. Given a string, find the reverse of the string.
+19. Given a string, find the longest palindrome substring in the string.
+20. Given two strings, find the longest common substring between the two strings.
