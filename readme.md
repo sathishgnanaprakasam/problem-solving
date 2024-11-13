@@ -5,8 +5,8 @@
 [x] Day 3: Arrays - Basics + Hashing
 [x] Day 4: Arrays - Advanced + Hashing + Two Pointers + Recursion
 [x] Day 5: Strings - Basics
-[ ] Day 6: Strings - Advanced + Time and Space Complexity
-[ ] Day 7: Sorting Algorithms  
+[x] Day 6: Strings - Advanced
+[ ] Day 7: Sorting Algorithms + Time and Space Complexity  
 [ ] Day 8: Searching Algorithms  
 [ ] Day 9: Linked Lists  
 [ ] Day 10: Stacks and Queues
@@ -248,3 +248,116 @@ Not amicable numbers
 18. Given a string, find the reverse of the string.
 19. Given a string, find the longest palindrome substring in the string.
 20. Given two strings, find the longest common substring between the two strings.
+
+Problem: You are given a ‘true’ string. String is called true if weight of string is multiple of 8. Your task is to tell whether a string can be declared True or Not. Weight of string is the sum of ASCII value of Vowel character(s) present in the string.
+
+Input Description:
+You are given as string ‘s’ in lower cases
+
+Output Description:
+Print 1 for true and 0 for false
+
+Sample Input: raja
+
+Sample Output: 0
+
+Explanation:
+
+There are two vowels in the string, a and a.
+
+The ASCII value of a is 97.
+
+The sum of the ASCII values of the vowels is 97 + 97 = 194.
+
+The weight of the string is 194.
+
+Now, let's check if the weight of the string is a multiple of 8.
+
+194 is not a multiple of 8.
+
+Therefore, the output is 0.
+
+Sample Input: aoao
+
+Sample Output: 1
+
+Explanation:
+
+There are four vowels in the string, a, o, a, and o.
+
+The ASCII value of a is 97.
+
+The ASCII value of o is 111.
+
+The sum of the ASCII values of the vowels is 97 + 111 + 97 + 111 = 416.
+
+The weight of the string is 416.
+
+Now, let's check if the weight of the string is a multiple of 8.
+
+416 is a multiple of 8.
+
+Therefore, the output is 1.
+
+Problem: You are given string ‘s’. Your task is to modify the string as mentioned below:-
+1)The string should not have three consecutive same characters.
+2)You can add any number of characters anywhere in the string.
+
+Find the minimum number of characters which Ishaan must insert in the string.
+
+Input Description:
+You are given a string ‘s’
+
+Output Description:
+print the required answer in a new line.
+
+Sample Input :
+aabbbcc
+
+Sample Output :
+1
+
+Input: aaabbbccc
+
+Output: 3
+
+Explanation:
+
+In the second example, the string is aaabbbccc.
+
+The string has three consecutive a's, three consecutive b's, and three consecutive c's.
+
+To make the string valid, we need to add one character between the first two a's, one character between the first two b's, and one character between the first two c's.
+
+Therefore, the minimum number of characters that Ishaan must insert in the string is 3.
+
+Input: bbbbbbbb
+
+Output: 3
+
+Explanation:
+
+In the third example, the string is bbbbbbbb.
+
+The string has eight consecutive b's.
+
+To make the string valid, we need to add one character between the first two b's, one character between the second and third b's, and one character between the third and fourth b's.
+
+Problem: Given a string, find the longest palindrome substring in the string. If there are multiple longest palindrome substrings, return the first one.
+
+Example:
+
+Input: "babad"
+
+Output: babad
+
+Explanation: The longest palindrome substring in the string is "babad".
+
+Input: "cbbd"
+
+Output: bb
+
+Explanation: The longest palindrome substring in the string is "bb".
+
+Input: aabbaaababbaba
+Output: ababbaba
