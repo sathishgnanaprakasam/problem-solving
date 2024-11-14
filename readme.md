@@ -6,7 +6,7 @@
 [x] Day 4: Arrays - Advanced + Hashing + Two Pointers + Recursion
 [x] Day 5: Strings - Basics
 [x] Day 6: Strings - Advanced
-[ ] Day 7: Sorting Algorithms + Time and Space Complexity  
+[x] Day 7: Sorting Algorithms + Time and Space Complexity  
 [ ] Day 8: Searching Algorithms  
 [ ] Day 9: Linked Lists  
 [ ] Day 10: Stacks and Queues
@@ -361,3 +361,33 @@ Explanation: The longest palindrome substring in the string is "bb".
 
 Input: aabbaaababbaba
 Output: ababbaba
+
+## Day 6: Strings - Advanced
+
+## Day 7: Sorting Algorithms + Time and Space Complexity
+
+1. Given an array of integers, check if the array is already sorted or not.
+2. Given an array of integers, find the second largest element in the array.
+3. Given an array of integers, find the kth largest element in the array.
+
+Homeworks:
+
+1. Modify the bubble sort algorithm to stop the sorting process if the array is already sorted.
+2. Find the kth largest element in the array using the bubble sort algorithm.
+3. Find the kth largest element in the array using the selection sort algorithm.
+4. Given an array nums with n objeects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with colors in the order red, white and blue. We will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+
+Example:
+
+Input: [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
+
+Explanation: Given an array of integers with colors red, white, and blue represented by 0, 1, and 2 respectively. The output should be the sorted array with colors in the order red, white, and blue.
+
+5. Given a string, find the minimum number of adjacent swaps required to make the string a palindrome. If it is not possible to make the string a palindrome, return -1.
+
+Example:
+
+Input: "mamad"
+Output: 3
+Explanation: The minimum number of adjacent swaps required to make the string "mamad" a palindrome is 3. The string can be converted to "madam" by swapping the characters at indices 1 and 3, 2 and 3, and 3 and 4.
