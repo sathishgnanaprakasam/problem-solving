@@ -7,7 +7,7 @@
 [x] Day 5: Strings - Basics
 [x] Day 6: Strings - Advanced
 [x] Day 7: Sorting Algorithms + Time and Space Complexity  
-[ ] Day 8: Searching Algorithms  
+[x] Day 8: Searching Algorithms  
 [ ] Day 9: Linked Lists  
 [ ] Day 10: Stacks and Queues
 
@@ -391,3 +391,24 @@ Example:
 Input: "mamad"
 Output: 3
 Explanation: The minimum number of adjacent swaps required to make the string "mamad" a palindrome is 3. The string can be converted to "madam" by swapping the characters at indices 1 and 3, 2 and 3, and 3 and 4.
+
+### Searching Algorithms
+
+1. Given an array of 0's and 1's sorted in descending order, find the number of ones using linear search.
+2. Given an array of 0's and 1's sorted in descending order, find the number of ones using binary search.
+
+Problem: Given an array of 0's and 1's sorted in descending order, find the number of ones using linear search.
+
+Example:
+
+Input: [1, 1, 1, 1, 0, 0, 0]
+Output: 4
+
+Input: [1, 1, 0, 0, 0]
+Output: 2
+
+Input: [1, 1, 1, 1, 1]
+Output: 5
+
+Input: [0, 0, 0, 0, 0]
+Output: 0
